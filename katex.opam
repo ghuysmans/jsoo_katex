@@ -1,0 +1,13 @@
+opam-version: "2.0"
+name: "katex"
+version: "0.1.0"
+maintainer: "Guillaume Huysmans <ghuysmans99@gmail.com>"
+authors: "Guillaume Huysmans <ghuysmans99@gmail.com>"
+homepage: "https://github.com/ghuysmans/jsoo_katex/"
+bug-reports: "https://github.com/ghuysmans/jsoo_katex/issues"
+dev-repo: "git+https://github.com/ghuysmans/jsoo_katex/"
+build: [["dune" "build" "-p" name "-j" jobs]]
+depends: [
+  "dune"
+]
+synopsis: "js_of_ocaml binding for KaTeX"
